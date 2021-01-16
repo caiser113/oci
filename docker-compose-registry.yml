@@ -22,7 +22,7 @@ services:
       - ENV_MODE_BROWSE_ONLY=false
     extra_hosts:
       # replace this IP with your load balancer public IP
-      - "registry.mydomain.com:1.1.1.1"
+      - "registry.mydomain.com:193.123.245.51"
 
 volumes:
   data:
